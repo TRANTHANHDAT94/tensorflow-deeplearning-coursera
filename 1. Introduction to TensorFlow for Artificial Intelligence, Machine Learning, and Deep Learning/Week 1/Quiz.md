@@ -53,3 +53,4 @@
     - [ ] It optimizes an existing model
     - [ ] It makes a model fit available memory
     - [ ] It determines if your activity is good for your body
+    100%POINT

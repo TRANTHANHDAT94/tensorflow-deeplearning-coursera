@@ -48,10 +48,6 @@
     - [ ] tf.keras.clear_session
 
 8. What happens if you define a neural network with these two layers?
-tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
-tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
-tf.keras.layers.Dense(1),
-
     - [ ] Your model will fail because you have the same number of cells in each LSTM
     - [ ] Your model will fail because you need return_sequences=True after each LSTM layer
     - [x] Your model will fail because you need return_sequences=True after the first LSTM layer
